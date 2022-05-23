@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KimlikSeriNumarasi</fullName>
+    <active>true</active>
+    <description>KImlik Seri Numarasi &quot;A12-D123021&quot; Formatinda olmalidir</description>
+    <errorConditionFormula>NOT(REGEX(kimlik_seri_numarasi__c , &quot;([A-Z]{1}[\\d]{2}\\-[A-Z]{1}[\\d]?{6})&quot;))</errorConditionFormula>
+    <errorDisplayField>kimlik_seri_numarasi__c</errorDisplayField>
+    <errorMessage>Kimlikserinumarasi &quot;A12-C123654&quot;bu formatta olmali</errorMessage>
+</ValidationRule>

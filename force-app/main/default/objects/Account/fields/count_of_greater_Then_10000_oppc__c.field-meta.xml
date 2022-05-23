@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>count_of_greater_Then_10000_oppc__c</fullName>
+    <externalId>false</externalId>
+    <label>count of greater Then 10000 oppc</label>
+    <summaryFilterItems>
+        <field>Opportunity.Amount</field>
+        <operation>greaterThan</operation>
+        <value>10000</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <type>Summary</type>
+</CustomField>

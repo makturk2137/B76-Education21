@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>konteyner_bilgileri</fullName>
+    <fields>Deniz_Yolu_Varis__c</fields>
+    <fields>Karayolu_Varis__c</fields>
+    <fields>Liman_Adi__c</fields>
+    <fields>Plaka__c</fields>
+    <fields>Sigorta__c</fields>
+    <fields>Konteynar_Varis_Tarihi__c</fields>
+    <label>konteyner bilgileri</label>
+</CompactLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dersler_compak_layouts</fullName>
+    <fields>Name</fields>
+    <fields>CreatedById</fields>
+    <fields>List_Price__c</fields>
+    <fields>Duration_Week__c</fields>
+    <label>dersler compak layouts</label>
+</CompactLayout>

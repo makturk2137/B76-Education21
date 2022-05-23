@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Konteyner_Numarasi__c</fullName>
+    <externalId>false</externalId>
+    <label>Konteyner Numarasi</label>
+    <referenceTo>Konteyner_Numarasi__c</referenceTo>
+    <relationshipLabel>Kargo Numaralari</relationshipLabel>
+    <relationshipName>Kargo_Numaralari</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
